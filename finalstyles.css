@@ -1,0 +1,285 @@
+/* FIRST PAGE*/
+
+/* headline font */
+@font-face {
+    font-family: "Julius";
+    src: url(Julius_Sans_One/JuliusSansOne-Regular.ttf);
+}
+
+/* body font */
+@font-face {
+    font-family: "Crimson";
+    src: url(Crimson_Text/CrimsonText-Regular.ttf);
+}
+
+body {
+    font-family: "Crimson";
+}
+
+#topNav * {
+    text-align: center;
+    color: #acb8a0;
+    font-size: 50px;
+    height: 90px;
+    padding: 10px;
+    justify-content: centre;
+    align-items: centre;
+    font-family: "Julius";
+}
+
+#homeNav * {
+    background-color: #acb8a0;
+    color: #f0f2e6;
+    vertical-align: middle;
+    justify-content: space-evenly;
+    height: 50px;
+    font-size: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+.box1{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    height: 400px;
+    font-size: 45px;
+    color: #acb8a0;
+    font-family: "Julius";
+    padding: 15px;
+}
+
+.textbox1{
+    width: 50%;
+    text-align: center;
+}
+
+
+.box2{
+    height: 330px;
+    box-sizing: border-box;
+    background-color: #acb8a0;
+    color: #f0f2e6;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 35px 60px;
+}
+
+.textbox2a{
+    height:25%;
+    font-family: "Julius";
+    padding: 15px;
+    
+}
+
+.textbox2b{
+    height:50%;
+    vertical-align: middle;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+
+
+.box3{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    height: 390px;
+    color: #acb8a0;
+    font-size: 40px;
+    font-family: "Julius";
+}
+
+.textbox3{
+    align-items: center;
+    width: 65%;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+#footer * {
+    display: inline-block;
+    background-color: #acb8a0;
+    color: #f0f2e6;
+    height: 50px;
+    vertical-align: middle;
+    justify-content: space-evenly;
+}
+
+/* buttons */
+.btn-outline-light{
+    font-family: "Julius";
+}
+
+.btn-outline-light:hover{
+    color: #acb8a0;
+}
+
+.btn-outline-secondary{
+    border-color: #acb8a0;
+    color: #acb8a0;
+}
+
+.btn-outline-secondary:hover{
+    background-color: #acb8a0;
+    border-color: #acb8a0;
+}
+
+
+/* SECOND PAGE */
+.box10{
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    height: 700px;
+    padding: 65px;
+    color: #acb8a0;
+    font-size: 40px;
+}
+
+#bookText *{
+    width: 600px;
+}
+
+.textbox10a{
+    align-items: center;
+    text-align: left;
+    border-bottom-color: #acb8a0;
+    border-bottom-width: 4px;
+}
+
+.textbox10b{
+    align-items: center;
+    text-align: left;
+    font-size: 28px;
+    line-height: 39px;
+}
+
+.textbox10c{
+    align-items: center;
+    text-align: justify;
+    font-size: 25px;
+}
+
+.hr{
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-parent-element{
+    height: 650px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.box11{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 600px;
+    width: 49%;
+    color: #acb8a0;
+    font-size: 21px;
+    padding: 35px 45px 45px 45px;
+}
+
+.textbox11a{
+    padding-bottom: 15px;
+    font-family: "Julius";
+}
+
+.box12{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 600px;
+    width: 49%;
+    color: #acb8a0;
+    font-size: 21px;
+    padding: 35px 45px 45px 45px;
+}
+
+.textbox12a{
+    padding-bottom: 15px;
+    font-family: "Julius";
+}
+
+/* page 3 */
+
+.quote{
+    padding-top: 40px;
+    color: #acb8a0;
+}
+
+.box14{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    font-size: 30px;
+    color: #acb8a0;
+    padding: 40px;
+}
+
+.box15{
+    display:flex;
+    align-items: flex-start;
+    height: 50px;
+    font-size: 30px;
+    color: #acb8a0;
+    font-family: "Julius";
+    padding: 35px;
+}
+
+.credits1{
+    display:flex;
+    align-items: flex-start;
+    height: 50px;
+    font-size: 30px;
+    color: #acb8a0;
+    font-family: "Julius";
+    padding: 35px;
+}
+
+.credits2{
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+    line-height: 39px;
+    padding: 50px;
+}
+
+.box16{
+    display:flex;
+    align-items:center;
+    justify-content: flex-start;
+    height: 500px;
+    padding: 65px;
+    color: #acb8a0;
+    font-size: 40px;
+}
+
+.bookLink{
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    color: #acb8a0;
+    text-decoration: none;
+}
+
+.bookLink:hover{
+    text-decoration: underline;
+}
+
+.accordion{
+    padding: 30px;
+
+}
+
+.accordion-header{
+    font-family: "Julius";
+}
